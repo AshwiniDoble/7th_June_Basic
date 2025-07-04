@@ -24,7 +24,7 @@ public class MultipleCatch {
         }
         catch(Exception e)
         {
-            System.out.println("Something went wrong..");
+            System.out.println("Something went wrong.." + e);
         }
 
         System.out.println(j);
